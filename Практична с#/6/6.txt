@@ -1,0 +1,18 @@
+// ВАРІАНТ 2
+using System;
+using System.IO;
+using System.Text;
+
+class Program
+{
+    static void Main()
+    {
+        string input = Console.ReadLine().Trim();
+        string[] sents = File.ReadAllText(@"D:\text.txt", Encoding.Default).Split(new string[] { "." }, StringSplitOptions.RemoveEmptyEntries);
+        // Для перевірки необхідно вказати шлях до текстового файлу, та виправити його в попередній стрічці
+        foreach (string sentence in sents)
+            if (sentence.Contains(input))
+                Console.WriteLine(sentence);
+        Console.ReadKey();
+    }
+}

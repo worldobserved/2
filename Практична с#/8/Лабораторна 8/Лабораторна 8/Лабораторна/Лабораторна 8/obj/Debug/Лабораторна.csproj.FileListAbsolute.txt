@@ -1,0 +1,24 @@
+c:\users\yurii\documents\visual studio 2012\Projects\MafiaHelp\MafiaHelp\bin\Debug\MafiaHelp.exe.config
+c:\users\yurii\documents\visual studio 2012\Projects\MafiaHelp\MafiaHelp\bin\Debug\MafiaHelp.exe
+c:\users\yurii\documents\visual studio 2012\Projects\MafiaHelp\MafiaHelp\bin\Debug\MafiaHelp.pdb
+c:\users\yurii\documents\visual studio 2012\Projects\MafiaHelp\MafiaHelp\obj\Debug\MafiaHelp.Form1.resources
+c:\users\yurii\documents\visual studio 2012\Projects\MafiaHelp\MafiaHelp\obj\Debug\MafiaHelp.Properties.Resources.resources
+c:\users\yurii\documents\visual studio 2012\Projects\MafiaHelp\MafiaHelp\obj\Debug\MafiaHelp.csproj.GenerateResource.Cache
+c:\users\yurii\documents\visual studio 2012\Projects\MafiaHelp\MafiaHelp\obj\Debug\MafiaHelp.exe
+c:\users\yurii\documents\visual studio 2012\Projects\MafiaHelp\MafiaHelp\obj\Debug\MafiaHelp.pdb
+c:\users\yurii\documents\visual studio 2012\Projects\MafiaHelp\MafiaHelp\obj\Debug\MafiaHelp.color_form.resources
+c:\users\yurii\documents\visual studio 2012\Projects\MafiaHelp\MafiaHelp\obj\Debug\MafiaHelp.size_form.resources
+C:\Users\Yurii\documents\visual studio 2012\Projects\MafiaHelp\MafiaHelp\obj\Debug\MafiaHelp.csprojResolveAssemblyReference.cache
+C:\Users\Олег\Desktop\MafiaHelp\MafiaHelp\MafiaHelp\obj\Debug\MafiaHelp.csproj.AssemblyReference.cache
+C:\Users\Олег\Desktop\MafiaHelp\MafiaHelp\MafiaHelp\obj\Debug\MafiaHelp.csproj.SuggestedBindingRedirects.cache
+C:\Users\Олег\Desktop\MafiaHelp\MafiaHelp\MafiaHelp\obj\Debug\MafiaHelp.color_form.resources
+C:\Users\Олег\Desktop\MafiaHelp\MafiaHelp\MafiaHelp\obj\Debug\MafiaHelp.Form1.resources
+C:\Users\Олег\Desktop\MafiaHelp\MafiaHelp\MafiaHelp\obj\Debug\MafiaHelp.size_form.resources
+C:\Users\Олег\Desktop\MafiaHelp\MafiaHelp\MafiaHelp\obj\Debug\MafiaHelp.csproj.GenerateResource.cache
+C:\Users\Олег\Desktop\MafiaHelp\MafiaHelp\MafiaHelp\obj\Debug\MafiaHelp.csproj.CoreCompileInputs.cache
+C:\Users\Олег\Desktop\MafiaHelp\MafiaHelp\MafiaHelp\bin\Debug\Драченко Олег Сергійович 29 група 2 варіант.exe.config
+C:\Users\Олег\Desktop\MafiaHelp\MafiaHelp\MafiaHelp\bin\Debug\Драченко Олег Сергійович 29 група 2 варіант.exe
+C:\Users\Олег\Desktop\MafiaHelp\MafiaHelp\MafiaHelp\bin\Debug\Драченко Олег Сергійович 29 група 2 варіант.pdb
+C:\Users\Олег\Desktop\MafiaHelp\MafiaHelp\MafiaHelp\obj\Debug\laba9.Properties.Resources.resources
+C:\Users\Олег\Desktop\MafiaHelp\MafiaHelp\MafiaHelp\obj\Debug\Драченко Олег Сергійович 29 група 2 варіант.exe
+C:\Users\Олег\Desktop\MafiaHelp\MafiaHelp\MafiaHelp\obj\Debug\Драченко Олег Сергійович 29 група 2 варіант.pdb

@@ -1,0 +1,94 @@
+// ВАРІАНТ 1
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace ConsoleApplication1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int str = 4, stolb = 5;
+            int[,] massiv = new int[str, stolb];
+            Random rnd = new Random();
+            for (int i = 0; i < str; ++i)
+            {
+                for (int j = 0; j < stolb; ++j)
+                {
+                    massiv[i, j] = rnd.Next(0, 15);
+                    Console.Write(" \t" + massiv[i, j]);
+                }
+                Console.WriteLine();
+            }
+            int kolElem = 0;
+            int kolStr = 0;
+            for (int i = 0; i < str; ++i)
+            {
+                for (int j = 0; j < stolb; ++j)
+                {
+                    if (massiv[i, j] == 0)
+                    {
+                        ++kolElem;
+                    }
+                }
+                Console.WriteLine("Рядок {0} Має {1} 0-вих елементiв", (i + 1), kolElem);
+                if (kolElem == 0)
+                {
+                    ++kolStr;
+                }
+                else
+                {
+                    kolElem = 0;
+                }
+            }
+            Console.WriteLine("Кiлькiсть рядкiв, якi не мають нульових елементiв:  " + kolStr);
+            Console.WriteLine();
+            int maxElem = 0;
+            int kolVstrech = 0;
+            for (int i = 0; i < str; ++i)
+            {
+                for (int j = 0; j < stolb; ++j)
+                {
+                    if (massiv[i, j] == maxElem)
+                    {
+                        ++kolVstrech;
+                    }
+                    if (massiv[i, j] > maxElem)
+                    {
+                        maxElem = massiv[i, j];
+                        kolVstrech = 1;
+                    }
+                }
+            }
+            while (kolVstrech < 2)
+            {
+                if (kolVstrech <= 1)
+                {
+                    Console.WriteLine("Максимальне значення: {0} не повторюється в матрицi, тому шукаємо нове, яке зустрiчається два чи бiльше разів", maxElem);
+                    int maxElemPrediduschiy = maxElem;
+                    maxElem = 0;
+                    kolVstrech = 0;
+                    for (int i = 0; i < str; ++i)
+                    {
+                        for (int j = 0; j < stolb; ++j)
+                        {
+                            if ((massiv[i, j] == maxElem) && (massiv[i, j] < maxElemPrediduschiy))
+                            {
+                                ++kolVstrech;
+                            }
+                            if ((massiv[i, j] > maxElem) && (massiv[i, j] < maxElemPrediduschiy))
+                            {
+                                maxElem = massiv[i, j];
+                                kolVstrech = 1;
+                            }
+                        }
+                    }
+                }
+            }
+            Console.WriteLine("Максимальний елемент: {0}, зустрiчається {1} раз(и)", maxElem, kolVstrech);
+            Console.ReadKey();
+        }
+    }
+}

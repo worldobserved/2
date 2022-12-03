@@ -1,0 +1,63 @@
+// ВАРІАНТ 1
+using System;
+
+namespace V1L4
+{
+    class cl1
+    { 
+        public cl1()
+        {
+            this.st = 0;
+            this.fns = 100;
+            this.tek = 50;
+        }
+        
+        public cl1(int st, int fns, int tek)
+        {
+            this.st = st;
+            this.fns = fns;
+            this.tek = tek;
+        }
+        public int uvTek()
+        {
+            tek += 10;
+            if (tek < st) throw new IndexOutOfRangeException();
+            if (tek > fns) throw new IndexOutOfRangeException();
+            return tek;
+        }
+        public int umTek()
+        {
+            tek -= 10;
+            if (tek < st) throw new IndexOutOfRangeException();
+            if (tek > fns) throw new IndexOutOfRangeException();
+            return tek;
+        }
+        public int Tek
+        {
+            get
+            {
+                return tek;
+            }
+        }
+        public void Print()
+        {
+            Console.WriteLine("Початок: {0}; Кiнець: {1}; Значення лічильника: {2}", st, fns, tek);
+        }
+        private int st; 
+        private int fns; 
+        private int tek; 
+    }
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            cl1 Schet1 = new cl1();
+            Schet1.uvTek();
+            Schet1.Print();
+            cl1 Schet = new cl1(260, 500, 250);
+            Schet.umTek();
+            Schet.Print();
+            Console.ReadLine();
+        }
+    }
+}

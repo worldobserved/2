@@ -1,0 +1,53 @@
+// Взятий той же варіант, що і у 1 роботі
+using System;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        double Y = 0;
+        Console.Write("Введiть перше значення аргументу: ");
+        double X_min = Convert.ToDouble(Console.ReadLine());
+        Console.WriteLine();
+        Console.Write("Введiть друге значення аргументу: ");
+        double X_max = Convert.ToDouble(Console.ReadLine());
+        Console.WriteLine();
+        Console.Write("Введiть значення кроку: ");
+        double X_dX = Convert.ToDouble(Console.ReadLine());
+        Console.WriteLine();
+
+        Console.WriteLine("=================================================");
+        Console.WriteLine("|\tX\t|\tY\t\t\t|");
+        Console.WriteLine("=================================================");
+        for (double i = X_min; i <= X_max; i += X_dX)
+        {
+            if (-9 <= i && i < -6)
+            {
+                Y = -Math.Sqrt(Math.Pow(3, 2) - Math.Pow((i + 6), 2));
+                Console.WriteLine("|\t{0}\t|\t{1}", i, Y);
+            }
+            else if (-6 <= i && i <= -3)
+            {
+                Y = i + 3;
+                Console.WriteLine("|\t{0}\t|\t{1}", i, Y);
+            }
+            else if (-3 < i && i < 0)
+            {
+                Y = Math.Sqrt(Math.Pow(3, 2) - Math.Pow(i, 2));
+                Console.WriteLine("|\t{0}\t|\t{1}", i, Y);
+            }
+            else if (0 <= i && i <= 3)
+            {
+                Y = -i + 3;
+                Console.WriteLine("|\t{0}\t|\t{1}", i, Y);
+            }
+            else
+            {
+                Y = 0.5 * i - 1.5;
+                Console.WriteLine("|\t{0}\t|\t{1}", i, Y);
+            }
+        }
+        Console.WriteLine("=================================================");
+        Console.ReadLine();
+    }
+}
